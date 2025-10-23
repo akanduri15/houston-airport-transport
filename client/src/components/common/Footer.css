@@ -1,0 +1,13 @@
+.footer {
+  background-color: #0d47a1; /* Deep blue airport color */
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  font-size: 0.95rem;
+  box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.15);
+  z-index: 100;
+}

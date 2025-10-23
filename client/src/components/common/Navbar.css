@@ -1,0 +1,48 @@
+/* Navbar.css */
+.navbar {
+  width: 100%;
+  background-color: #003366; /* dark blue background */
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.navbar-menu {
+  list-style: none;
+  display: flex;
+  justify-content: space-around; /* evenly space items */
+  align-items: center;
+  margin: 0;
+  padding: 12px 0;
+}
+
+.navbar-item {
+  display: flex;
+  flex-direction: column; /* icon above text */
+  align-items: center;
+  gap: 4px; /* space between icon and text */
+}
+
+.navbar-item a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  transition: color 0.2s;
+}
+
+.navbar-item a:hover {
+  color: #ffcc00; /* hover effect */
+}
+
+.navbar-item svg {
+  color: white;
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+
+.navbar-item svg:hover {
+  transform: scale(1.2); /* icon enlarges on hover */
+}

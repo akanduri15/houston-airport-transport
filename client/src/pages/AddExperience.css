@@ -1,0 +1,63 @@
+.add-experience-container {
+  max-width: 600px;
+  margin: 60px auto; /* centers and adds top spacing */
+  padding: 20px;
+  border: 2px solid white; /* ✅ white border around container */
+  border-radius: 12px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #1e3a8a; /* optional: dark blue background */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  color: white; /* ensures text is readable */
+}
+
+.add-experience-container h2 {
+  color: white;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+}
+
+.add-experience-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.add-experience-form label {
+  text-align: left;
+  font-weight: 500;
+  color: white;
+}
+
+.add-experience-form input,
+.add-experience-form select,
+.add-experience-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.add-experience-form input:focus,
+.add-experience-form select:focus,
+.add-experience-form textarea:focus {
+  border-color: #2196f3;
+  outline: none;
+}
+
+.submit-button {
+  background-color: #1976d2;
+  color: white;
+  padding: 12px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #0d47a1;
+}
